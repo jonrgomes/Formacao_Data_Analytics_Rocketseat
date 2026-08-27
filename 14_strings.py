@@ -12,3 +12,7 @@ print(len(nome2))
 # Operdador in - verifica a existencia de um caractere e retorna um valor booleano
 print('a' in nome)
 print('y' in nome2)
+
+# Operador not in - verifica a inexistencia de um caractere e retorna um valor booleano
+print('t' not in nome)
+print('d' not in nome2)
