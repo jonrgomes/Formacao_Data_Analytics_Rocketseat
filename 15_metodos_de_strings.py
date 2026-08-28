@@ -25,3 +25,21 @@ animal = "cachorro"
 print(animal.isalnum())
 
 # Remover espaços
+fruta = "       uva     "
+print(fruta)
+fruta = fruta.strip()
+print(fruta)
+
+# Substituir um caractere por outro
+transito = "Rodovias"
+print(transito)
+transito = transito.replace('s', "")
+print(transito)
+
+# Recortar uma string
+nome_completo = "Jonatas Ribeiro Gomes"
+
+print(nome_completo)
+
+nome_completo = nome_completo.split()
+print(nome_completo)
