@@ -9,4 +9,19 @@ print(email.find("@gmail.com"))
 # Verifica se uma string começa com um caractere ou sequencia de caracteres especificos
 print(email.startswith("jon"))
 
-# 
+# Verifica se uma string começa com um caractere ou sequencia de caracteres especificos
+print(email.endswith(".com"))
+
+# verificar se uma uma string possui valor numérico
+cpf = "05079113389"
+print(type(cpf))
+print(cpf.isnumeric())
+
+# Verificar se apenas são letras
+print(cpf.isalpha())
+
+# Verificar se o conteudo da stringa são letras e numeros
+animal = "cachorro"
+print(animal.isalnum())
+
+# Remover espaços
