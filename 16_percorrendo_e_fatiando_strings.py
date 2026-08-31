@@ -1,5 +1,15 @@
 # Percorrendo uma string com for
-contador = 0
-while contador < 5:
-    print(contador)
-    contador += 1.5
+frase = "Jonatas será um DEV"
+
+for j in frase: 
+    print(j)
+
+
+# Percorrendo uma string com while
+texto = "Jonatas será analista de dados!"
+
+i = 0 
+while i < len(texto):
+    print(texto[i])
+    i += 1
+
