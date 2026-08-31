@@ -33,5 +33,4 @@ for d in range (-1, -10, -2):
 
 for i in range (1, 20):
     print(i)
-else:
-    print('Fim da execução do for!')
+
