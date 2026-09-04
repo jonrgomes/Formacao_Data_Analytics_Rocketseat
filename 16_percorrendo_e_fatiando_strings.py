@@ -1,15 +1,28 @@
 # Percorrendo uma string com for
 frase = "Jonatas será um DEV"
 
-for j in frase: 
-    print(j)
+for a in frase:
+    print(a)
 
 
-# Percorrendo uma string com while
-texto = "Jonatas será analista de dados!"
+print("_" * 50)
+# Perconrrendo strings com while
 
-i = 0 
-while i < len(texto):
-    print(texto[i])
-    i += 1
+amor = "Te amo Juliana!"
+e = 0
 
+while e < len(amor):
+    print(amor[e])
+    e += 1
+
+print("_" * 50)
+
+# Fatiamento de Strins
+texto = "Flamengo é bom!!!"
+"""
+texto[inicio: fim - 1: passo]
+
+"""
+print(texto[0])
+print(texto[-1])
+print(texto[2: 10: 1])
