@@ -1,3 +1,2 @@
-# Percorrendo uma string com for
-for a in range("jonatas", 10, 2):
-    print(a)
+valor = int(input("Digite um número: "))
+soma = 0
