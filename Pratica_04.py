@@ -6,8 +6,8 @@ Objetivo: a partir de vendas = [120, 85, 200, 150, 90, 300, 175], calcular total
 vendas = [120, 85, 200, 150, 90, 300, 175]
 
 total = 0 # cria um "acumulador" — uma variável que vai guardar a soma conforme o loop avança. Ela começa em zero pois não existe soma;
-for x in vendas: # percorre a lista item por item. A cada volta, x recebe um valor diferente;
-    total += x # (também pode escrever total += x) 
+for venda in vendas: # percorre a lista item por item. A cada volta, x recebe um valor diferente;
+    total += venda # (também pode escrever total += venda) 
 print(f"O total em vendas é {total}R$.")
 
 # Calculando a média:
