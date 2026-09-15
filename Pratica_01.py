@@ -1,21 +1,21 @@
-# # 1 -variáveis tipos de Dados:
-# nome = 'Angels'
-# classe = 'Guerreiro'
-# nivel = 5
+# 1 -variáveis tipos de Dados:
+nome = 'Angels'
+classe = 'Guerreiro'
+nivel = 5
 vida = 100.0
-# esta_vivo = True
+esta_vivo = True
 
-# # 2 - Saída de Dados:
-# print('===FICHA DO PERSONAGEM===')
-# print(f'Nome: {nome}')
-# print(f'Classe: {classe}')
-# print(f'Nível: {nivel}')
-# print(f'Vida: {vida}')
-# print(type(nome))
-# print(type(classe))
-# print(type(nivel))
-# print(type(vida))
-# print(type(esta_vivo))
+# 2 - Saída de Dados:
+print('===FICHA DO PERSONAGEM===')
+print(f'Nome: {nome}')
+print(f'Classe: {classe}')
+print(f'Nível: {nivel}')
+print(f'Vida: {vida}')
+print(type(nome))
+print(type(classe))
+print(type(nivel))
+print(type(vida))
+print(type(esta_vivo))
 
 # 3 - Entrada de Dados:
 nome = input('Digite o nome do personagem: ')
