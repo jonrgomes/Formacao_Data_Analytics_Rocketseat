@@ -20,11 +20,11 @@ while True:
     login_senha = str(input("Senha: "))
     
     if login_usuario == crie_usuario and login_senha == crie_senha:
-        print("Acesso libera!")
+        print("Acesso liberado!")
         break
     
     else: 
         print("Usuário ou senha inválido, favor tente novamente!")
     
-    
+   
 
