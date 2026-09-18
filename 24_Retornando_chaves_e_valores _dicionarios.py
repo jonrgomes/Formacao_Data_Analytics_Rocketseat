@@ -38,3 +38,25 @@ print(pessoas)
 pessoas["CPF"] = "000.000.000-00"
 pessoas.update({"RG":"000.000.00"})
 print(pessoas)
+
+# Removendo um item chave:valor no dicionários:
+pessoas.pop("altura")
+print(pessoas)
+
+# Remover o último elemento inserido:
+pessoas.popitem()
+print(pessoas)
+
+# Utilizando o del:
+cliente = {
+    "nome": "Ana Julia",
+    "data_nasc": "28-09-1990",
+    "cpf": "999.999.999-00",
+    "rg": "888.999.99"
+}
+
+print(cliente)
+
+del cliente["rg"]
+
+print(cliente)
