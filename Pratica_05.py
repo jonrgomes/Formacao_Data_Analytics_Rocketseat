@@ -12,7 +12,7 @@ print(f"A venda total é de {venda_total:.2f}R$!".replace(".", ","))
 
 # Cadastro de Produtos em sistema: 
 
-# produtos = []
+produtos = []
 
 while True:
     nome = input("Nome do produto: ")
