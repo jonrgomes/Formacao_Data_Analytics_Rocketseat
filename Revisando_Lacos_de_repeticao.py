@@ -15,9 +15,9 @@ while contador <= 5:
 for numero in range(1, 6):
     print(numero)
 
-# # # Mesmo resultado. O range(1, 6) gera os números de 1 até 5 (o último número não entra).
-# # for numero in range(1, 11):
-# #     print(numero)
+# Mesmo resultado. O range(1, 6) gera os números de 1 até 5 (o último número não entra).
+for numero in range(1, 11):
+    print(numero)
 
 soma = 0
 numero = 1
