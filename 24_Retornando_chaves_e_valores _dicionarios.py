@@ -23,3 +23,18 @@ for chave, valor in pessoas.items(): # percorrendo com for
 # verificando se existe uma chave em um dicionário:
 "nome" in pessoas # se existe
 "nome" not in pessoas # se náo existe
+
+# Alterando valores de um dicionário:
+pessoas["idade"] = 40
+print(pessoas)
+
+pessoas.update({"altura":1.88})
+print(pessoas)
+
+pessoas.update({"idade":56, "altura":1.90, "habilitado":False})
+print(pessoas)
+
+# Adicionando um novo chave:valor no dicionário:
+pessoas["CPF"] = "000.000.000-00"
+pessoas.update({"RG":"000.000.00"})
+print(pessoas)
