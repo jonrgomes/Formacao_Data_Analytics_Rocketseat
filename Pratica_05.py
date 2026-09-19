@@ -43,23 +43,57 @@
 # for agenda in barber_cliente:
 #     print(agenda)
 
-# Controle de estoque de Lojinha:
+# # Controle de estoque de Lojinha:
 
-produtos = []
+# produtos = []
+
+# while True:
+#     nome_produto = input("Nome do produto: ")
+#     preco_produto = float(input("Preço: "))
+#     quantidade_produto = int(input("Quantidade: "))
+    
+#     listagem = {"nome": nome_produto, "preco": preco_produto, "quantidade": quantidade_produto}
+#     produtos.append(listagem)
+    
+#     novo_cad_produtos = input("Deseja cadastrar outro produto? (S/N): ")
+    
+#     if novo_cad_produtos.lower() == "n":
+#         break 
+
+# for estoque in produtos:
+#     print(estoque)
+
+# Controle de notas de alunos:
+
+print("______CONTROLE DE NOTAS DOS ALUNOS_______")
+
+alunos = []
 
 while True:
-    nome_produto = input("Nome do produto: ")
-    preco_produto = float(input("Preço: "))
-    quantidade_produto = int(input("Quantidade: "))
-    
-    listagem = {"nome": nome_produto, "preco": preco_produto, "quantidade": quantidade_produto}
-    produtos.append(listagem)
-    
-    novo_cad_produtos = input("Deseja cadastrar outro produto? (S/N): ")
-    
-    if novo_cad_produtos.lower() == "n":
-        break 
+    nome_aluno = input("Nome do aluno: ")
+    nota_aluno = float(input("Nota: "))
 
-for estoque in produtos:
-    print(estoque)
+    if nota_aluno >= 7:
+        situacao = "Aluno aprovado"
         
+    else:
+        situacao = "Aluno reprovado"
+        
+    turma = {"nome": nome_aluno, "nota": nota_aluno, "situação": situacao}
+    alunos.append(turma)
+    
+   
+    novo_aluno = input("Deseja lançar outa nota de aluno: (S/N)")
+    
+    if novo_aluno.lower() == "n":
+        break
+    
+    for turma_A in alunos:
+        print(turma_A)
+    
+
+
+
+
+
+
