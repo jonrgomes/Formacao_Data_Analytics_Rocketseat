@@ -42,4 +42,24 @@
 
 # for agenda in barber_cliente:
 #     print(agenda)
-   
+
+# Controle de estoque de Lojinha:
+
+produtos = []
+
+while True:
+    nome_produto = input("Nome do produto: ")
+    preco_produto = float(input("Preço: "))
+    quantidade_produto = int(input("Quantidade: "))
+    
+    listagem = {"nome": nome_produto, "preco": preco_produto, "quantidade": quantidade_produto}
+    produtos.append(listagem)
+    
+    novo_cad_produtos = input("Deseja cadastrar outro produto? (S/N): ")
+    
+    if novo_cad_produtos.lower() == "n":
+        break 
+
+for estoque in produtos:
+    print(estoque)
+        
