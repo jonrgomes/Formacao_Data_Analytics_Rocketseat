@@ -11,7 +11,7 @@ print(carro[1])
 print(carro[2])
 
 # Alterando dados de uma tupa:
-auxiliar = list(carro) # converte em lista com uma variavel de apoio
+auxiliar = list[str](carro) # converte em lista com uma variavel de apoio
 print(auxiliar)
 
 auxiliar[1] = "Brasília" # consegue a alteração via listas
