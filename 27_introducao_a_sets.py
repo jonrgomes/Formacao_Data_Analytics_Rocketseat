@@ -15,4 +15,16 @@ print(numeros)
 print(frutas)
 
 # Tamanhpo de um set: 
+print(len(frutas))
 
+# Acessando um item de um set:
+for x in frutas:
+    print(x)
+for y in numeros:
+    print(y)
+    
+# Verificando se existe um item dentro de set:
+if "banana" in frutas:
+    print("Existe banana em frutas!")
+else: 
+    print("Não existe banana em frutas!")
