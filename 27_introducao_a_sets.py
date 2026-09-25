@@ -1,4 +1,4 @@
-# Sintxe de um set:
+# Sintaxe de um set:
 frutas = {"banara", "uva", "laranja"}
 print(frutas)
 print(type(frutas))
