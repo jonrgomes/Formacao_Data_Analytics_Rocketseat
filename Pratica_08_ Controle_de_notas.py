@@ -2,7 +2,7 @@
 
 print("______CONTROLE DE NOTAS DOS ALUNOS_______")
 
-alunos = []
+alunos = [] # Criou-se uma lista vazia onde seram adicionados os alunos e notas da turma.
 while True:
     nome_aluno = input("Nome do aluno: ")
     nota_aluno = float(input("Nota: "))
