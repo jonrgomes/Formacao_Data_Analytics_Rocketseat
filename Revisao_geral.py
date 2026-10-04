@@ -31,6 +31,8 @@ ticket_medio = fat_total / len(valor)
 print(f"Faturamento total: R${fat_total}")
 print(f"Ticket médio: R${ticket_medio}")   
         
-        
+# Nível Intermediário: Logs de Utilizadores
+
+       
 
     
